@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+P {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/*container*/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*sections*/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  padding-left: 5%;
+}
+
+/*Download button*/
+
+.Download-button {
+ margin: 5% 3% 5% 0;
+  margin-left: 10%;
+}
+
+/*title section*/
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+/*titlle image*/
+
+.tittle-image {
+  width: 20%;
+  transform: rotate(25deg);
+  margin-top: 10x;
+  margin-left: 15px;
+  position: absolute;
+}
+
+/* Features Scetion */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*Testmonial Section*/
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*  pricing section*/
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-weight: bold;
+}
+
+#pricing .card {
+  height: 427px;
+}
+
+.pricing-collum {
+  padding: 3% 2%;
+}
+
+/*Call to Action*/
+
+/* footer Section*/
+
+.Social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .tittle-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
